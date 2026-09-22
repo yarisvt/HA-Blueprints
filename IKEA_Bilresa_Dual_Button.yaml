@@ -335,7 +335,7 @@ actions:
                       - trigger: state
                         entity_id: !input remote_up
                         attribute: event_type
-                        to: long_release
+                        to: long_press
                     timeout: 30
                   - action: light.turn_on
                     target:
@@ -374,7 +374,7 @@ actions:
                       - trigger: state
                         entity_id: !input remote_down
                         attribute: event_type
-                        to: long_release
+                        to: long_press
                     timeout: 30
                   - action: light.turn_on
                     target:
